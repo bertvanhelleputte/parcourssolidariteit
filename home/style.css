@@ -24,3 +24,31 @@ header{
 .principal{
   background-color: #9B9382;
 }
+.footer-1 {
+  background: #363b3b;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.colored {
+  color: #ffdd99;
+}
+
+.footer-2 {
+  background: #6f9f9f;
+}
+
+.sponsers img {
+  padding: 1em;
+}
+
+a{
+  color: #F2F1F1;
+}
+a:hover{
+  color: #FFDD99;
+  text-decoration: none;
+}
