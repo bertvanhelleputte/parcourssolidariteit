@@ -10,17 +10,19 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Musicals</title>
+    <title><?php the_title()?></title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css" />
     <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/home.css" />
   </head>
+    <?php  get_header();?>
+
 <body>
  <div class="container col-12">
       <header class="row d-flex justify-content-around">
@@ -63,18 +65,21 @@
       </section>
 
       <section class="row principal d-flex justify-content-center">
-        <div class="col-10 pt-5">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan
-            diam libero, in varius neque sodales non. Duis suscipit sit amet
-            quam hendrerit suscipit. Vestibulum vestibulum fringilla justo, sit
-            amet semper augue accumsan id. Pellentesque fermentum bibendum magna
-            tempus finibus. Nunc ornare enim vitae ex sollicitudin, quis
-            facilisis odio semper. Quisque mattis lectus augue, aliquet laoreet
-            mi eleifend a. Proin tincidunt volutpat mi, quis porta ligula dictum
-            quis. Ut pulvinar neque quis leo finibus iaculis.
-          </p>
-        </div>
+          <div class="col-10 pt-5">
+              <?php
+    // TO SHOW THE PAGE CONTENTS
+    while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
+        <div class="entry-content-page">
+            <?php the_content(); ?> <!-- Page Content -->
+        </div><!-- .entry-content-page -->
+
+    <?php
+    endwhile; //resetting the page loop
+    wp_reset_query(); //resetting the page query
+    ?>
+              </div>
+
+
       </section>
 
       <section class="row principal d-flex justify-content-center">

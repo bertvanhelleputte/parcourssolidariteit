@@ -1,0 +1,10 @@
+/* weird wordpress thing */
+header {
+  margin-top: -32px;
+}
+
+#site-header,
+.menu-modal.cover-modal.header-footer-group,
+.skip-link.screen-reader-text {
+  display: none;
+}

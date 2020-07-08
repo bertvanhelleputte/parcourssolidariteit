@@ -1,0 +1,8 @@
+/* weird wordpress thing */
+header {
+  margin-top: -32px;
+}
+
+#site-header {
+  display: none;
+}
