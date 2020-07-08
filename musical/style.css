@@ -60,3 +60,14 @@ h6 {
 .sponsers img {
   padding: 1em;
 }
+@media only screen and (max-device-width: 768px) {
+  h2 {
+    font-size: 1.2em;
+  }
+  .voetnoot {
+    font-size: 0.5rem;
+  }
+  .vensters img {
+    padding: 1em 1em;
+  }
+}

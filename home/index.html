@@ -12,32 +12,80 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <div class="container col-12">
-      <header class="row d-flex justify-content-around">
-        <div class="pt-4">
-          <p class="yellow">Parcours van de Solidariteit</p>
-        </div>
-        <div class="pt-4"><p>27 + 28 november</p></div>
-        <div class="col-2">
+    
+      <header class="row pt-3">
+        <div class="col-5"></div>
+
+        <a href="#" class="col-2">
           <img
-            class="img-fluid"
+            class="img-fluid logo"
             src="/media/Logo-Solidariteit/logo-nl-wit.png"
           />
-        </div>
-        <div class="pt-4">
-          <a href="">Home</a>
-        </div>
-        <div class="pt-4">
-          <a href="">Musical</a>
-        </div>
-        <div class="pt-4">
-          <a href="">Workshops</a>
-        </div>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark col-5">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Musical <span class="sr-only">(current)</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Bouwers</a>
+                  <a class="dropdown-item" href="#">Bedenkers</a>
+                  <a class="dropdown-item" href="#">Zangers</a>
+                  <a class="dropdown-item" href="#">Dansers</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Repetitieschema</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Workshops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </header>
-
       <section class="row">
         <div class="col-12 p-0">
           <img class="img-fluid" src="/media/top-illustration.svg" />
@@ -83,14 +131,14 @@
 
       <footer class="row">
         <div class="footer-1 d-flex py-4 col-12">
-          <div class="col-2 pl-2">
+          <div class="col-lg-2 col-4 pl-2">
             <img
               class="img-fluid"
               src="/media/Logo-Solidariteit/logo-nl-wit.png"
             />
           </div>
-          <div class="col-8"></div>
-          <div class="col-2 d-flex flex-column justify-content-end">
+          <div class="col-8 d-none d-lg-block"></div>
+          <div class="col-lg-2 d-flex flex-column justify-content-end">
             <h6 class="colored mb-0">Parcours vd solidariteit</h6>
             <h6>27 - 28 NOV 2020</h6>
           </div>
@@ -143,7 +191,7 @@
                 src="/media/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
           </div>
-          <p class="text-center col-12 py-1">
+          <p class="text-center col-12 py-1 voetnoot">
             VZW WIJKHUIS CHAMBERY Chamberystraat 24 1040 Etterbeek
             edwin.bw@chambery.be ond.nr. 0460 236 987
           </p>

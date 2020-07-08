@@ -1,54 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #F2F1F1
-}
-.sponser{
-  border: 1px solid black;
-  height: 3em;
-  width: 8em;
-}
-header{
-  background-color: #759794;
-}
-.yellow{
-  color: #FFDD99;
-}
-.tussenboord{
-  background-color: #B4A890;
-  height: 5em;
-}
-.tussenboord2{
-  background-color: #7C7567;
-  height: 2em;
-}
-.principal{
-  background-color: #9B9382;
-}
-.footer-1 {
-  background: #363b3b;
+  background-color: #9b9382;
+  color: #f2f1f1;
 }
 
-h6 {
+header {
+  height: 8em;
+  background: #242422;
+}
+
+header .logo {
+  width: 12em;
+}
+
+nav {
   font-weight: 500;
   font-size: 1.2em;
 }
 
-.colored {
-  color: #ffdd99;
+.nav-link {
+  color: #f2f1f1 !important;
 }
 
-.footer-2 {
-  background: #6f9f9f;
+.nav-link:hover {
+  color: #ffdd99 !important;
 }
 
-.sponsers img {
-  padding: 1em;
+.nav-item {
+  padding: 0 0.5em;
 }
 
-a{
-  color: #F2F1F1;
-}
-a:hover{
-  color: #FFDD99;
-  text-decoration: none;
+@media only screen and (max-device-width: 768px) {
+  h2{
+    font-size: 1.2em;
+  }
+  header{
+    height: 4em;
+  }
+  .tussenboord{
+    height: 2em;
+  }
+  .tussenboord2{
+    height: 1em;
+  }
+  .voetnoot{
+    font-size: .5rem;
+  }
 }
