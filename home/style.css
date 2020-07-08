@@ -32,20 +32,41 @@ nav {
   padding: 0 0.5em;
 }
 
+.footer-1 {
+  background: #363b3b;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.colored {
+  color: #ffdd99;
+}
+
+.footer-2 {
+  background: #6f9f9f;
+}
+
+.sponsers img {
+  padding: 1em;
+}
+
 @media only screen and (max-device-width: 768px) {
-  h2{
+  h2 {
     font-size: 1.2em;
   }
-  header{
+  header {
     height: 4em;
   }
-  .tussenboord{
+  .tussenboord {
     height: 2em;
   }
-  .tussenboord2{
+  .tussenboord2 {
     height: 1em;
   }
-  .voetnoot{
-    font-size: .5rem;
+  .voetnoot {
+    font-size: 0.5rem;
   }
 }
