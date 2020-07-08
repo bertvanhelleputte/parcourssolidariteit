@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #F2F1F1
+}
+.sponser{
+  border: 1px solid black;
+  height: 3em;
+  width: 8em;
+}
+header{
+  background-color: #759794;
+}
+.yellow{
+  color: #FFDD99;
+}
+.tussenboord{
+  background-color: #B4A890;
+  height: 5em;
+}
+.tussenboord2{
+  background-color: #7C7567;
+  height: 2em;
+}
+.principal{
+  background-color: #9B9382;
+}
+.footer-1 {
+  background: #363b3b;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.colored {
+  color: #ffdd99;
+}
+
+.footer-2 {
+  background: #6f9f9f;
+}
+
+.sponsers img {
+  padding: 1em;
+}
+
+a{
+  color: #F2F1F1;
+}
+a:hover{
+  color: #FFDD99;
+  text-decoration: none;
+}

@@ -1,6 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
+
+<?php
+/*
+ * Template Name: Home template
+ * description: >-
+  Home template
+ */
+
+ ?>
+
+<head>
     <meta charset="utf-8" />
     <title>Musicals</title>
     <meta name="description" content="" />
@@ -11,11 +19,10 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/home.css" />
   </head>
-  
-  <body>
-    <div class="container col-12">
+<body>
+ <div class="container col-12">
       <header class="row d-flex justify-content-around">
         <div class="pt-4">
           <p class="yellow">Parcours van de Solidariteit</p>
@@ -24,7 +31,7 @@
         <div class="col-2">
           <img
             class="img-fluid"
-            src="/media/Logo-Solidariteit/logo-nl-wit.png"
+            src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-zwart.png"
           />
         </div>
         <div class="pt-4">
@@ -40,7 +47,7 @@
 
       <section class="row">
         <div class="col-12 p-0">
-          <img class="img-fluid" src="/media/Top Illustration.svg" />
+          <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/Top Illustration.svg" />
         </div>
       </section>
 
@@ -73,10 +80,10 @@
       <section class="row principal d-flex justify-content-center">
         <div class="col-10 d-flex flex-wrap py-3">
           <a href="#" class="col-6 px-5 ">
-            <img src="/media/SVG/knop-musical.svg" />
+            <img src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/knop-musical.svg" />
           </a>
           <a href="#" class="col-6 px-5">
-            <img src="/media/SVG/knop-workshop.svg" />
+            <img src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/knop-workshop.svg" />
           </a>
         </div>
       </section>
@@ -86,7 +93,7 @@
           <div class="col-2 pl-2">
             <img
               class="img-fluid"
-              src="/media/Logo-Solidariteit/logo-nl-wit.png"
+              src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             />
           </div>
           <div class="col-8"></div>
@@ -100,47 +107,47 @@
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
             <a href="#" class=""
               ><img
                 class="img-fluid"
-                src="/media/Logo-Solidariteit/logo-nl-wit.png"
+                src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"
             /></a>
           </div>
           <p class="text-center col-12 py-1">
@@ -150,7 +157,4 @@
         </div>
       </footer>
     </div>
-
-    <script src="" async defer></script>
-  </body>
-</html>
+</body>
