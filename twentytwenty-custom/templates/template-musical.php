@@ -1,8 +1,8 @@
 <?php
 /*
- * Template Name: Home template
+ * Template Name: Musical template
  * description: >-
-  Home template
+  Musical template
  */
 
  ?>
@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?1" />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/home.css?1" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?1" />
 
      <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -42,25 +42,12 @@
  <div class="container col-12">
 
        <?php get_template_part( 'template-parts/custom-navbar' );?>
+                 <?php dynamic_sidebar( 'headerWidget' ); ?>
 
-      <section class="row">
-        <div class="col-12 p-0">
-          <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/top-illustration.svg" />
-        </div>
-      </section>
-
-      <section class="row tussenboord"></section>
-
-      <section class="row tussenboord2"></section>
-
-      <section class="row principal d-flex justify-content-center">
-        <div class="col-lg-10 col-12 d-flex justify-content-between pt-5">
-          <h2 class="yellow">Parcours Solidariteit</h2>
-          <h2>27 + 28 november 2020</h2>
-        </div>
-      </section>
-
-      <section class="row principal d-flex justify-content-center">
+<div class="row">
+        <img class="img-fluid menu-graphics" src="/wp-content/themes/twentytwenty-custom/assets/images/Vector.svg" />
+      </div>
+      <section class="row mt-5 d-flex justify-content-center">
         <div class="col-lg-10 col-12 pt-5">
               <?php
     while ( have_posts() ) : the_post(); ?>
@@ -73,20 +60,23 @@
     wp_reset_query(); 
     ?>
     </div>
-
-
       </section>
-
-     <section class="row principal d-flex justify-content-center my-5">
-        <div class="col-9 d-flex justify-content-around flex-wrap py-3">
-          <a href="#" class="col-12 col-lg-5 px-lg-5 mb-5">
-            <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-musical-knop.svg" />
+      <section class="row mt-5 d-flex justify-content-center">
+        <div class="col-lg-10 col-12 d-flex flex-wrap vensters">
+          <a href="#" class="col-12 col-lg-6 px-lg-5">
+            <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-bouwers-knop.svg" />
           </a>
-          <a href="#" class="col-12 col-lg-5 px-lg-5">
+          <a href="#" class="col-12 col-lg-6 px-lg-5">
+            <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-zangers-knop.svg" />
+          </a>
+          <a href="#" class="col-12 col-lg-6 px-lg-5">
             <img
               class="img-fluid"
-              src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-workshops-knop.svg"
+              src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-bedenkers-knop.svg"
             />
+          </a>
+          <a href="#" class="col-12 col-lg-6 px-lg-5">
+            <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-dansers-knop.svg" />
           </a>
         </div>
       </section>

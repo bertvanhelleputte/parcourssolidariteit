@@ -6,7 +6,9 @@ header {
   /* margin-top: -32px; */
 }
 
-#site-header {
+#site-header,
+.menu-modal.cover-modal.header-footer-group,
+.skip-link.screen-reader-tex {
   display: none;
 }
 

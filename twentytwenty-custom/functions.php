@@ -758,3 +758,17 @@ function twentytwenty_get_elements_array() {
 	*/
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+
+function twentytwenty_custom_widgets_init() {
+  register_sidebar( array(
+    'name'          => __( 'Header Widgets', 'twenty-twenty-custom' ),
+    'id'            => 'headerWidget',
+    'description'   => __( 'Ruimte voor de countdown timer', 'twenty-twenty-custom' ),
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2 class="widget-title">',
+    'after_title'   => '</h2>',
+  ) );
+}
+
+add_action( 'widgets_init', 'twentytwenty_custom_widgets_init' );

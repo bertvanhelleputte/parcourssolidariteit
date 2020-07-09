@@ -1,0 +1,17 @@
+.menu-graphics {
+  margin-top: -10px;
+}
+
+.vensters img {
+  padding: 2em 4em;
+}
+
+header {
+  background: #242422;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .vensters img {
+    padding: 1em 1em;
+  }
+}
