@@ -6,3 +6,7 @@ header {
 #site-header {
   display: none;
 }
+
+p {
+  text-align: justify;
+}
