@@ -1,3 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #f2f1f1;
+}
+.sponser {
+  border: 1px solid black;
+  height: 3em;
+  width: 8em;
+}
+header {
+  background-color: #759794;
+}
+.yellow {
+  color: #ffdd99;
+}
+.tussenboord {
+  background-color: #b4a890;
+  height: 5em;
+}
+.tussenboord2 {
+  background-color: #7c7567;
+  height: 2em;
+}
+.principal {
+  background-color: #9b9382;
+}
+.footer-1 {
+  background: #363b3b;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.colored {
+  color: #ffdd99;
+}
+
+.footer-2 {
+  background: #6f9f9f;
+}
+
+.sponsers img {
+  padding: 1em;
+}
+
+a {
+  color: #f2f1f1;
+}
+a:hover {
+  color: #ffdd99;
+  text-decoration: none;
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 body {
@@ -30,27 +84,6 @@ nav {
 
 .nav-item {
   padding: 0 0.5em;
-}
-
-.footer-1 {
-  background: #363b3b;
-}
-
-h6 {
-  font-weight: 500;
-  font-size: 1.2em;
-}
-
-.colored {
-  color: #ffdd99;
-}
-
-.footer-2 {
-  background: #6f9f9f;
-}
-
-.sponsers img {
-  padding: 1em;
 }
 
 @media only screen and (max-device-width: 768px) {
