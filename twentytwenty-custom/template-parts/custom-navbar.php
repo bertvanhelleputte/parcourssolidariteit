@@ -52,17 +52,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item active dropdown">
+              <li class="d-flex nav-item active dropdown align-items-center">
+                <a href="/musical" class="nav-link">Musical</a>
                 <a
-                  class="nav-link dropdown-toggle"
-                  href="/musical"
-                  id="navbarDropdown"
-                  role="button"
+                  href="#"
+                  class="nav-link dropdown-toggle dropdown-toggle-split"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Musical <span class="sr-only">(current)</span>
+                  <span class="sr-only">Toggle Dropdown</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="/bouwers">Bouwers</a>
