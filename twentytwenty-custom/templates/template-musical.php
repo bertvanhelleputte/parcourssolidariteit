@@ -64,19 +64,19 @@
       </section>
       <section class="row mt-5 d-flex justify-content-center">
         <div class="col-lg-10 col-12 d-flex flex-wrap vensters">
-          <a href="#" class="col-12 col-lg-6 px-lg-5">
+          <a href="/bouwers" class="col-12 col-lg-6 px-lg-5">
             <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-bouwers-knop.svg" />
           </a>
-          <a href="#" class="col-12 col-lg-6 px-lg-5">
+          <a href="/zangers" class="col-12 col-lg-6 px-lg-5">
             <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-zangers-knop.svg" />
           </a>
-          <a href="#" class="col-12 col-lg-6 px-lg-5">
+          <a href="/bedenkers" class="col-12 col-lg-6 px-lg-5">
             <img
               class="img-fluid"
               src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-bedenkers-knop.svg"
             />
           </a>
-          <a href="#" class="col-12 col-lg-6 px-lg-5">
+          <a href="/dansers" class="col-12 col-lg-6 px-lg-5">
             <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-dansers-knop.svg" />
           </a>
         </div>

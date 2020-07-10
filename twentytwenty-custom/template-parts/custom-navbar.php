@@ -20,7 +20,7 @@
               var event_month = 11 - 1; 
               $('#counter').countdown(new Date(2020, event_month, 27, 20, 0, 0, 0), function(event) {                
                 $(this).text(
-                  event.strftime('nog %D dagen en %H uren tot de voorstelling!')
+                  event.strftime('nog %D dagen en %H:%M:%S uren tot de voorstelling!')
                 );
               }); 
             }); 
@@ -55,7 +55,7 @@
               <li class="nav-item active dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="/page-id?18"
+                  href="/musical"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -65,19 +65,19 @@
                   Musical <span class="sr-only">(current)</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/?page-id=18">Bouwers</a>
-                  <a class="dropdown-item" href="#">Bedenkers</a>
-                  <a class="dropdown-item" href="#">Zangers</a>
-                  <a class="dropdown-item" href="#">Dansers</a>
+                  <a class="dropdown-item" href="/bouwers">Bouwers</a>
+                  <a class="dropdown-item" href="/bedenkers">Bedenkers</a>
+                  <a class="dropdown-item" href="/zangers">Zangers</a>
+                  <a class="dropdown-item" href="/dansers">Dansers</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Repetitieschema</a>
+                  <a class="dropdown-item" href="/repetitieschema">Repetitieschema</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Workshops</a>
+                <a class="nav-link" href="/workshops">Workshops</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="/contact">Contact</a>
               </li>
             </ul>
           </div>

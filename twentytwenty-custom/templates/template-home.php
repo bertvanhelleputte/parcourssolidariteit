@@ -79,10 +79,10 @@
 
      <section class="row principal d-flex justify-content-center my-5">
         <div class="col-9 d-flex justify-content-around flex-wrap py-3">
-          <a href="#" class="col-12 col-lg-5 px-lg-5 mb-5">
+          <a href="/musical" class="col-12 col-lg-5 px-lg-5 mb-5">
             <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-musical-knop.svg" />
           </a>
-          <a href="#" class="col-12 col-lg-5 px-lg-5">
+          <a href="/workshops" class="col-12 col-lg-5 px-lg-5">
             <img
               class="img-fluid"
               src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-workshops-knop.svg"
