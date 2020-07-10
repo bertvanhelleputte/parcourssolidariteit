@@ -42,7 +42,6 @@
  <div class="container col-12">
 
        <?php get_template_part( 'template-parts/custom-navbar' );?>
-                 <?php dynamic_sidebar( 'headerWidget' ); ?>
 
 <div class="row">
         <img class="img-fluid menu-graphics" src="/wp-content/themes/twentytwenty-custom/assets/images/Vector.svg" />

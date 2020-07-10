@@ -11,18 +11,10 @@
 
 <header class="row">
         <div class="col-lg-5 d-none d-lg-block">
-          <?php if ( is_active_sidebar( 'headerWidget' )  ) : ?>
+          <?php the_widget('countdown-widget'); ?>
 
- <div class="widget-area" role="complementary">
- 
-  <?php dynamic_sidebar( 'headerWidget' ); ?>
- 
- </div>
- 
-<?php endif; ?>
 
         </div>
-          <?php dynamic_sidebar( 'headerWidget' ); ?>
 
 
         <a href="#" class="col-2 d-none d-lg-block">

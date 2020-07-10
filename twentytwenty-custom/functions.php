@@ -761,7 +761,7 @@ function twentytwenty_get_elements_array() {
 
 function twentytwenty_custom_widgets_init() {
   register_sidebar( array(
-    'name'          => __( 'Header Widgets', 'twenty-twenty-custom' ),
+    'name'          => __( 'Header widget', 'twenty-twenty-custom' ),
     'id'            => 'headerWidget',
     'description'   => __( 'Ruimte voor de countdown timer', 'twenty-twenty-custom' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
