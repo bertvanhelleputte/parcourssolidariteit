@@ -10,12 +10,20 @@
 ?>
 
 <header class="row">
-        <div class="col-lg-5 d-none d-lg-block">
-          <?php the_widget('countdown-widget'); ?>
-
-
+        <div class="col-lg-5 d-none d-lg-block d-flex flex-column align-items-end counterContainer">
+            <h6 class='yellow' id='counter'>counter</h6>     
         </div>
 
+     <script>
+            $(document).ready(function($) {
+              var event_month = 11 - 1; 
+              $('#counter').countdown(new Date(2020, event_month, 27, 20, 0, 0, 0), function(event) {                
+                $(this).text(
+                  event.strftime('nog %D dagen en %H uren tot de voorstelling!')
+                );
+              }); 
+            }); 
+          </script>
 
         <a href="#" class="col-2 d-none d-lg-block">
           <img

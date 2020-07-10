@@ -103,3 +103,12 @@ nav {
     font-size: 0.5rem;
   }
 }
+
+.counterContainer {
+  position: relative;
+}
+#counter {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+}
