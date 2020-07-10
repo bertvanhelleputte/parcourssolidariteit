@@ -11,10 +11,11 @@
 
 <header class="row">
         <div class="col-lg-5 d-none d-lg-block d-flex flex-column align-items-end counterContainer">
-            <h6 class='yellow' id='counter'>counter</h6>     
-        </div>
+          <?php if (!is_front_page()) : ?>
 
-     <script>
+            <h6 class='yellow' id='counter'>counter</h6>     
+
+              <script>
             $(document).ready(function($) {
               var event_month = 11 - 1; 
               $('#counter').countdown(new Date(2020, event_month, 27, 20, 0, 0, 0), function(event) {                
@@ -24,6 +25,12 @@
               }); 
             }); 
           </script>
+
+          <?php endif;  ?>
+
+        </div>
+
+   
 
         <a href="#" class="col-2 d-none d-lg-block">
           <img
