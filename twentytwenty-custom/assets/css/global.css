@@ -104,6 +104,7 @@ nav {
   }
 }
 
+/* widgets 'n plugins */
 .counterContainer {
   position: relative;
 }
@@ -111,4 +112,8 @@ nav {
   position: absolute;
   bottom: 2em;
   left: 2em;
+}
+
+.yotu-videos {
+  margin-top: 2em;
 }

@@ -17,13 +17,12 @@
 
               <script>
             $(document).ready(function($) {
-              var event_month = 11 - 1; 
-              $('#counter').countdown(new Date(2020, event_month, 27, 20, 0, 0, 0), function(event) {                
+              $('#counter').countdown(new Date(2020, 11, 27, 20, 0, 0, 0), function(event) {                
                 $(this).text(
                   event.strftime('nog %D dagen en %H:%M:%S uren tot de voorstelling!')
                 );
-              }); 
-            }); 
+              });
+            });
           </script>
 
           <?php endif;  ?>
@@ -76,7 +75,7 @@
                 <a class="nav-link" href="/workshops">Workshops</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="/doemee">Doe mee!</a>
               </li>
             </ul>
           </div>

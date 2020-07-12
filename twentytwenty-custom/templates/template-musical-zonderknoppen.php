@@ -17,8 +17,10 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?2" />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?1" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css" />
+
+    <link rel="stylesheet" href="https://parcourssolidariteit.be/wp-content/plugins/yotuwp-easy-youtube-embed/assets/css/frontend.min.css" />
 
      <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -37,6 +39,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://parcourssolidariteit.be/wp-content/plugins/yotuwp-easy-youtube-embed/assets/js/frontend.min.js"></script>
+
   </head>
     <?php  get_header();?>
 
