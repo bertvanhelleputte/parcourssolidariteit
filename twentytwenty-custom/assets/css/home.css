@@ -19,7 +19,7 @@ header {
   background-color: #9b9382;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 765px) {
   .tussenboord {
     height: 2em;
   }

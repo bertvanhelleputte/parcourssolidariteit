@@ -10,7 +10,7 @@
 ?>
 
 <header class="row">
-        <div class="col-lg-5 d-none d-lg-block d-flex flex-column align-items-end counterContainer">
+        <div class="col-lg-4 d-none d-lg-block d-flex flex-column align-items-end counterContainer">
           <?php if (!is_front_page()) : ?>
 
             <h6 class='yellow' id='counter'>counter</h6>     
@@ -31,7 +31,7 @@
 
    
 
-        <a href="#" class="col-2 d-none d-lg-block">
+        <a href="/" class="col-3 d-none d-lg-block">
           <img
             class="img-fluid logo"
             src="/wp-content/themes/twentytwenty-custom/assets/images/Logo-Solidariteit/logo-nl-wit.png"

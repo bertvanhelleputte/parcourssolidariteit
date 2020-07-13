@@ -41,14 +41,15 @@ a:hover {
   color: #ffdd99;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 765px) {
   h2 {
     font-size: 1.2em;
   }
 }
 
 /* navbar */
-header {
+header,
+nav {
   height: 8em;
 }
 
@@ -78,10 +79,9 @@ nav {
   background: rgba(0, 0, 0, 0.8);
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 765px) {
   header {
     height: 4em;
-    /* margin-top: -70px; */
   }
 }
 
@@ -98,7 +98,7 @@ nav {
   padding: 1em;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 765px) {
   .voetnoot {
     font-size: 0.5rem;
   }

@@ -1,5 +1,5 @@
 .menu-graphics {
-  margin-top: -10px;
+  margin-top: -60px;
 }
 
 .vensters img {
@@ -10,7 +10,7 @@ header {
   background: #242422;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 765px) {
   .vensters img {
     padding: 1em 1em;
   }

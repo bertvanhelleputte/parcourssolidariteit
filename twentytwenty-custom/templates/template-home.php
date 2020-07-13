@@ -17,8 +17,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?1" />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/home.css?1" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?10" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/home.css?10" />
 
      <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -79,10 +79,10 @@
 
      <section class="row principal d-flex justify-content-center my-5">
         <div class="col-9 d-flex justify-content-around flex-wrap py-3">
-          <a href="/musical" class="col-12 col-lg-5 px-lg-5 mb-5">
+          <a href="/musical" class="col-12 col-lg-5 px-xl-5 mb-5">
             <img class="img-fluid" src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-musical-knop.svg" />
           </a>
-          <a href="/workshops" class="col-12 col-lg-5 px-lg-5">
+          <a href="/workshops" class="col-12 col-lg-5 px-xl-5">
             <img
               class="img-fluid"
               src="/wp-content/themes/twentytwenty-custom/assets/images/SVG/venster-workshops-knop.svg"
