@@ -117,3 +117,16 @@ nav {
 .yotu-videos {
   margin-top: 2em;
 }
+
+.newsflash {
+  margin-top: 1em;
+}
+
+.newsflash p {
+  display: inline-block !important;
+  margin-left: 3em;
+}
+
+.newsflash a {
+  font-size: 1.2em;
+}

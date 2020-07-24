@@ -10,7 +10,7 @@
 ?>
 
 <header class="row">
-        <div class="col-lg-4 d-none d-lg-block d-flex flex-column align-items-end counterContainer">
+        <div class="col-lg-4 d-none d-lg-flex flex-column align-items-end counterContainer">
           <?php if (!is_front_page()) : ?>
 
             <h6 class='yellow' id='counter'>counter</h6>     
@@ -24,6 +24,18 @@
               });
             });
           </script>
+
+         <marquee class="newsflash" direction="left" scrollamount="5" behavior="scroll"><?php query_posts(array('post_type' => 'post','orderby' => 'date')); 
+              if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+            <?php the_content(); ?>
+
+       <?php endwhile; ?>
+       <?php else : ?>
+
+            
+
+       <?php endif; wp_reset_query(); ?> </marquee>
 
           <?php endif;  ?>
 

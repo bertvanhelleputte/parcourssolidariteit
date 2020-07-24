@@ -17,8 +17,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?10" />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?10" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?11" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?11" />
 
      <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

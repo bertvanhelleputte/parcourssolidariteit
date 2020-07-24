@@ -17,8 +17,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?10" />
-    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?10" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/global.css?11" />
+    <link rel="stylesheet" href="/wp-content/themes/twentytwenty-custom/assets/css/musical.css?11" />
 
     <link rel="stylesheet" href="https://parcourssolidariteit.be/wp-content/plugins/yotuwp-easy-youtube-embed/assets/css/frontend.min.css" />
 
